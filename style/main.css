@@ -8,9 +8,11 @@
    padding: 0;
    box-sizing: border-box;
 }
+/*elementos base*/
 body{
 background: var(--preto);
 font-family: 'Times New Roman', Times, serif;
+color: whitesmoke;
 
 }
 
@@ -35,4 +37,13 @@ header nav a{
 
 header nav a:hover{
     color: rgb(121, 28, 28);
+}
+
+/*filme principal*/
+
+.filmePrincipal{
+  font-size: 18px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/satoro.jpg");/*linear gradiente serve para escurecer contraste da imagem*/
+  height: 600px;
+  background-size: cover;/*tamanho da div ou wrapper*/
 }
