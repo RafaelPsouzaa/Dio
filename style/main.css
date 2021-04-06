@@ -47,3 +47,9 @@ header nav a:hover{
   height: 600px;
   background-size: cover;/*tamanho da div ou wrapper*/
 }
+
+.botao{
+  background-color: rgba(0, 0,0,.50);
+  border: none;
+  color: whitesmoke;
+}
