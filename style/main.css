@@ -46,12 +46,29 @@ header nav a:hover{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/satoro.jpg");/*linear gradiente serve para escurecer contraste da imagem*/
   height: 600px;
   background-size: cover;/*tamanho da div ou wrapper*/
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.filmePrincipal .descricao{
+margin-bottom: 40px;
+
+}
+.titulo{
+  
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
   background-color: rgba(0, 0,0,.50);
   border: none;
   color: whitesmoke;
+  
 
   padding: 15px 30px;
+  margin-right: 20px;
 }
