@@ -90,3 +90,9 @@ margin-top: 1%;
 .filmePrincipal .container{
   width: 95%;/*largura do container*/
 }
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
