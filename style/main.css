@@ -18,7 +18,6 @@ color: whitesmoke;
 
 header .container{
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -46,7 +45,7 @@ header nav a:hover{
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/satoro.jpg");/*linear gradiente serve para escurecer contraste da imagem*/
   height: 600px;
   background-size: cover;/*tamanho da div ou wrapper*/
-  
+  margin-bottom: 0%;
   display: flex;
   flex-direction: row;
   justify-content: center;
