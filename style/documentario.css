@@ -1,0 +1,71 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background:black;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    
+    }
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header .logo{
+        margin-left: 5px;
+        color: rgb(235, 36, 36);
+        font-family:'Arial black',Times;
+        font-size: 40px;
+    }
+    header nav a{
+        text-decoration: none; 
+        color: #AAA; 
+        margin-right: 10px;
+      }
+      header nav a:hover{
+        color: rgb(121, 28, 28);
+    }
+    .filmePrincipal{
+        font-size: 18px;
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/documen.jpeg");/*linear gradiente serve para escurecer contraste da imagem*/
+        height: 600px;
+        background-size: cover;/*tamanho da div ou wrapper*/
+        margin-bottom: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+      
+      }
+      .filmePrincipal .descricao{
+        margin-bottom: 10px;
+        margin-top: 1%;
+        
+        }
+        .titulo{
+          margin-top: 10%;
+          font-size: 40px;
+          font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+        
+        .botao{
+          background-color: rgba(0, 0,0,.50);
+          border: none;
+          color: whitesmoke;
+          
+        
+          padding: 15px 30px;
+          margin-right: 20px;
+          margin-bottom: 0px;
+          cursor: pointer;
+          transition: .4s ease all;
+        }
+        .botao:hover{
+          background-color: #e50914;
+         
+        }
+    
