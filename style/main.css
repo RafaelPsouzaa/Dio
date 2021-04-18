@@ -3,7 +3,7 @@
     --preto:#141414;
 }
 
-*{
+*{/*reset pagina*/
    margin: 0; 
    padding: 0;
    box-sizing: border-box;
